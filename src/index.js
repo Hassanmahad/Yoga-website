@@ -1,5 +1,5 @@
 import {createRoot} from 'react-dom/client';
-let year = 2026;
+let year = 25;
 let greating = 
 <div className="box">
     <h1 className="title"> Title </h1>
@@ -14,7 +14,7 @@ let greating =
         fontFamily : 'Arial',
         fontSize : 20,
 
-        }}>Hello i'm From React {year}</h1>
+        }}>Hello i'm From React and i'm {year} years old</h1>
         <input type="text" placeholder='Enter Your Name'></input>
 </div>;
 const container = document.getElementById("root");
