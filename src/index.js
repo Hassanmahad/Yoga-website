@@ -14,7 +14,11 @@ let greating =
         fontFamily : 'Arial',
         fontSize : 20,
 
+<<<<<<< HEAD
         }}>Hello i'm From React {year}</h1>
+=======
+        }}>Hello i'm From React.... {year}</h1>
+>>>>>>> 9df0dac (changed h1 text)
         <input type="text" placeholder='Enter Your Name'></input>
 </div>;
 const container = document.getElementById("root");
